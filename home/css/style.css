@@ -1,0 +1,267 @@
+* {
+  font-family: "Montserrat" !important;
+  scroll-behavior: smooth;
+}
+.background1 {
+  background-image: url(../img/Combined\ Shape.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a {
+  color: white;
+}
+body {
+  overflow-x: hidden !important;
+}
+.navbar-links a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.644);
+}
+.navbar-links a:visited {
+  text-decoration: none;
+  color: white;
+}
+.cel-mob {
+  display: none;
+}
+.logoAhreas {
+  justify-content: start !important;
+}
+.btn1 {
+  margin-bottom: 17px;
+}
+.btn1:hover {
+  color: black !important;
+}
+
+.btn2 {
+  border-radius: 20px;
+  color: #004e41 !important;
+  background-color: #00fed4;
+  border-color: #00fed4;
+}
+.letra1 {
+  font-family: "Montserrat";
+  font-size: 15px;
+}
+.letra {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 300;
+}
+.titulo1 {
+  font-family: "Montserrat";
+  font-size: 45px;
+  color: white;
+  font-weight: 300;
+}
+.qtd {
+  font-size: 50px;
+  font-weight: 500;
+}
+.texto {
+  font-weight: 200;
+}
+.title-faq {
+  padding-top: 10rem;
+}
+
+.description {
+  font-weight: 100;
+  margin-top: -40px;
+}
+.margemUsuarios {
+  padding-bottom: 14rem;
+  border-radius: 200px 200px 0 0;
+  margin-top: 10rem;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right bottom, #ac4deb, #7036e5, #301ce0);
+}
+
+.celular {
+  max-width: 60% !important;
+  margin-left: 177px;
+  margin-top: 0px;
+}
+.descfim {
+  font-weight: 200;
+}
+.titlefim {
+  font-weight: 400;
+}
+
+.imgcel {
+  margin-left: -2%;
+  max-width: 250%;
+}
+.tarefas {
+  margin-top: -10rem;
+}
+.text-tarefa {
+  margin-top: 5rem;
+}
+.imgblue {
+  margin-top: 150px;
+}
+.imgblue1 {
+  margin-left: 50px;
+}
+
+.img3 {
+  padding: 0.8rem;
+  background: linear-gradient(
+    to right bottom,
+    #5ae9ae,
+    #5cbce3,
+    #52b8e1,
+    #4875f3
+  );
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img4 {
+  border-radius: 10px;
+  width: 80px;
+  height: 75px;
+}
+.ahreasrodape {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titulobottom {
+  font-weight: 200;
+}
+.h1bottom {
+  font-weight: 400;
+  padding-top: 250px;
+}
+
+.desbottom {
+  font-weight: 100;
+}
+
+.circulo {
+  width: 90px;
+  height: 60px;
+  display: flex;
+  flex-flow: column;
+  align-items: center; /* alinhar verticalmente   */
+  justify-content: center; /* alinhar horizontalmente */
+  font-size: smaller;
+
+  border: 1px solid #ccc;
+  border-radius: 100%;
+}
+.letraCirculo {
+  font-size: 20px;
+}
+.carousel-indicators li {
+  margin-bottom: -4rem !important;
+  height: 30px !important ;
+}
+.carousel-indicators {
+  padding-top: 1rem;
+}
+@media (min-width: 1500px) {
+  .background1 {
+    background-size: 110% 100%;
+  }
+  .celular {
+    margin-left: 211px;
+  }
+}
+@media (min-width: 1367px) and (max-width: 1499px) {
+  .background1 {
+    background-size: 110% 100%;
+  }
+  .celular {
+    margin-left: 181px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  .background1 {
+    background-size: 114% 99%;
+  }
+}
+@media (min-width: 1073px) and (max-width: 1130px) {
+  .celular {
+    margin-left: 150px;
+  }
+}
+@media (min-width: 930px) and (max-width: 1072px) {
+  .celular {
+    margin-left: 108px;
+  }
+}
+@media (min-width: 890px) and (max-width: 929px) {
+  .celular {
+    margin-left: 133px;
+  }
+}
+@media (min-width: 768px) and (max-width: 889px) {
+  .celular {
+    margin-left: 108px;
+  }
+}
+@media (min-width: 777px) and (max-width: 1200px) {
+  .btn1 {
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 1125px) {
+  .btn1 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .background1 {
+    background-size: 336% 121%;
+  }
+  .imgcel {
+    max-width: 100%;
+  }
+  .margemUsuarios {
+    border-radius: 50px 50px 0 0;
+  }
+  .cel-mob {
+    display: block;
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 50px;
+  }
+  .celular {
+    display: none;
+  }
+  .btnmeio {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-links a {
+    font-size: 12px !important;
+  }
+  .btn1 {
+    margin-bottom: 14px;
+  }
+  .logo-nav {
+    display: flex;
+    justify-content: center;
+  }
+  .logo-nav img {
+    width: 70%;
+    padding: 2rem 0rem;
+  }
+  .navbar-links {
+    margin-left: 1rem;
+  }
+  .qtd {
+    text-align: center;
+  }
+  .description {
+    text-align: center;
+  }
+}
